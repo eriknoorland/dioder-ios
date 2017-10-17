@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575FF80219878E4D0D3212E0 /* Pods_dioder_ios_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02CECC415F6D358A2CF04E9 /* Pods_dioder_ios_WatchKit_App.framework */; };
 		7A3F7CFB1F966DF900127B1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F7CFA1F966DF900127B1B /* AppDelegate.swift */; };
 		7A3F7CFD1F966DF900127B1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F7CFC1F966DF900127B1B /* ViewController.swift */; };
 		7A3F7D001F966DF900127B1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F7CFE1F966DF900127B1B /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 		7A3F7D1E1F966DF900127B1B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F7D1D1F966DF900127B1B /* InterfaceController.swift */; };
 		7A3F7D201F966DF900127B1B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F7D1F1F966DF900127B1B /* ExtensionDelegate.swift */; };
 		7A3F7D221F966DF900127B1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F7D211F966DF900127B1B /* Assets.xcassets */; };
+		8DFA93EC13D79D3325E7C7E2 /* Pods_dioder_ios_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B450DFC1FDD598F8687D3D /* Pods_dioder_ios_WatchKit_Extension.framework */; };
+		D36C9BC65EB635A7481736A5 /* Pods_dioder_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8224B7B18F3D9B30A1AD734 /* Pods_dioder_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		558F4B7393AB48271917E2BA /* Pods-dioder-ios WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dioder-ios WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-dioder-ios WatchKit App/Pods-dioder-ios WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		711187BDB7B84213CBB02595 /* Pods-dioder-ios WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dioder-ios WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dioder-ios WatchKit App/Pods-dioder-ios WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		7A3F7CF71F966DF900127B1B /* dioder-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dioder-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3F7CFA1F966DF900127B1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A3F7CFC1F966DF900127B1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,13 +85,29 @@
 		7A3F7D1F1F966DF900127B1B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		7A3F7D211F966DF900127B1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3F7D231F966DF900127B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5D84B67102F470A3FE1F15 /* Pods-dioder-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dioder-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dioder-ios/Pods-dioder-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		A02CECC415F6D358A2CF04E9 /* Pods_dioder_ios_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dioder_ios_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4744699F2CA1A7863910912 /* Pods-dioder-ios WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dioder-ios WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dioder-ios WatchKit Extension/Pods-dioder-ios WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		A6B450DFC1FDD598F8687D3D /* Pods_dioder_ios_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dioder_ios_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3443ACCAE5E81CF9F0E0D13 /* Pods-dioder-ios WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dioder-ios WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-dioder-ios WatchKit Extension/Pods-dioder-ios WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		D9C34847444A9D1DCBFCE8B0 /* Pods-dioder-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dioder-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-dioder-ios/Pods-dioder-ios.release.xcconfig"; sourceTree = "<group>"; };
+		E8224B7B18F3D9B30A1AD734 /* Pods_dioder_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dioder_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		39BB455397E4DEA58DF415F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575FF80219878E4D0D3212E0 /* Pods_dioder_ios_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7A3F7CF41F966DF900127B1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36C9BC65EB635A7481736A5 /* Pods_dioder_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DFA93EC13D79D3325E7C7E2 /* Pods_dioder_ios_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +129,8 @@
 				7A3F7D0D1F966DF900127B1B /* dioder-ios WatchKit App */,
 				7A3F7D1C1F966DF900127B1B /* dioder-ios WatchKit Extension */,
 				7A3F7CF81F966DF900127B1B /* Products */,
+				DB0D773A3388DE0F87B3957F /* Pods */,
+				D621FF5B4E5FADEEAF6000B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,6 +178,29 @@
 			path = "dioder-ios WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		D621FF5B4E5FADEEAF6000B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8224B7B18F3D9B30A1AD734 /* Pods_dioder_ios.framework */,
+				A02CECC415F6D358A2CF04E9 /* Pods_dioder_ios_WatchKit_App.framework */,
+				A6B450DFC1FDD598F8687D3D /* Pods_dioder_ios_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB0D773A3388DE0F87B3957F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D84B67102F470A3FE1F15 /* Pods-dioder-ios.debug.xcconfig */,
+				D9C34847444A9D1DCBFCE8B0 /* Pods-dioder-ios.release.xcconfig */,
+				711187BDB7B84213CBB02595 /* Pods-dioder-ios WatchKit App.debug.xcconfig */,
+				558F4B7393AB48271917E2BA /* Pods-dioder-ios WatchKit App.release.xcconfig */,
+				A4744699F2CA1A7863910912 /* Pods-dioder-ios WatchKit Extension.debug.xcconfig */,
+				B3443ACCAE5E81CF9F0E0D13 /* Pods-dioder-ios WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,10 +208,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A3F7D2E1F966DF900127B1B /* Build configuration list for PBXNativeTarget "dioder-ios" */;
 			buildPhases = (
+				287BD54FF2E09E16BAFF2F45 /* [CP] Check Pods Manifest.lock */,
 				7A3F7CF31F966DF900127B1B /* Sources */,
 				7A3F7CF41F966DF900127B1B /* Frameworks */,
 				7A3F7CF51F966DF900127B1B /* Resources */,
 				7A3F7D2D1F966DF900127B1B /* Embed Watch Content */,
+				AB33F8295D8D48B927914CF0 /* [CP] Embed Pods Frameworks */,
+				913634BD6AD770289D60B18A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,8 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A3F7D2A1F966DF900127B1B /* Build configuration list for PBXNativeTarget "dioder-ios WatchKit App" */;
 			buildPhases = (
+				F02334DB51204CB00D240855 /* [CP] Check Pods Manifest.lock */,
 				7A3F7D071F966DF900127B1B /* Resources */,
 				7A3F7D291F966DF900127B1B /* Embed App Extensions */,
+				39BB455397E4DEA58DF415F6 /* Frameworks */,
+				A306E454C0AF0C3D77980913 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A3F7D261F966DF900127B1B /* Build configuration list for PBXNativeTarget "dioder-ios WatchKit Extension" */;
 			buildPhases = (
+				5D02BBF4E2CD31643295072C /* [CP] Check Pods Manifest.lock */,
 				7A3F7D141F966DF900127B1B /* Sources */,
 				7A3F7D151F966DF900127B1B /* Frameworks */,
 				7A3F7D161F966DF900127B1B /* Resources */,
+				64C0F10245A9360B973BE273 /* [CP] Embed Pods Frameworks */,
+				75F440D7AD5EAA3C08F5EF7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +339,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		287BD54FF2E09E16BAFF2F45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dioder-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D02BBF4E2CD31643295072C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dioder-ios WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64C0F10245A9360B973BE273 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dioder-ios WatchKit Extension/Pods-dioder-ios WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75F440D7AD5EAA3C08F5EF7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dioder-ios WatchKit Extension/Pods-dioder-ios WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		913634BD6AD770289D60B18A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dioder-ios/Pods-dioder-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A306E454C0AF0C3D77980913 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dioder-ios WatchKit App/Pods-dioder-ios WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB33F8295D8D48B927914CF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-dioder-ios/Pods-dioder-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dioder-ios/Pods-dioder-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F02334DB51204CB00D240855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dioder-ios WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A3F7CF31F966DF900127B1B /* Sources */ = {
@@ -455,6 +648,7 @@
 		};
 		7A3F7D271F966DF900127B1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4744699F2CA1A7863910912 /* Pods-dioder-ios WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +666,7 @@
 		};
 		7A3F7D281F966DF900127B1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3443ACCAE5E81CF9F0E0D13 /* Pods-dioder-ios WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -489,6 +684,7 @@
 		};
 		7A3F7D2B1F966DF900127B1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711187BDB7B84213CBB02595 /* Pods-dioder-ios WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -507,6 +703,7 @@
 		};
 		7A3F7D2C1F966DF900127B1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558F4B7393AB48271917E2BA /* Pods-dioder-ios WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -525,6 +722,7 @@
 		};
 		7A3F7D2F1F966DF900127B1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5D84B67102F470A3FE1F15 /* Pods-dioder-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,12 +731,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.eriknoorland.dioder-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7A3F7D301F966DF900127B1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C34847444A9D1DCBFCE8B0 /* Pods-dioder-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,7 +746,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.eriknoorland.dioder-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

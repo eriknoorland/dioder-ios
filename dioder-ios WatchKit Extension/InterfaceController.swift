@@ -1,21 +1,17 @@
-//
-//  InterfaceController.swift
-//  dioder-ios WatchKit Extension
-//
-//  Created by Erik Noorland on 17/10/2017.
-//  Copyright © 2017 Erik Noorland. All rights reserved.
-//
-
 import WatchKit
 import Foundation
+import WatchConnectivity
 
+class InterfaceController: WKInterfaceController, WCSessionDelegate {
 
-class InterfaceController: WKInterfaceController {
-
+    var session: WCSession?
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        // Configure interface objects here.
+        session = WCSession.default
+        session?.delegate = self
+        session?.activate()
     }
     
     override func willActivate() {
@@ -27,5 +23,29 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-
+    
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+//        print("session watchos")
+    }
+    @IBAction func setColourRed() {
+        session?.sendMessage(["colourChangeRequest": "ff0000"], replyHandler: { response in
+//            print("received reply from iPhone\n\(response)")
+        }, errorHandler: { error in
+//            print("error sending message\n\(error)")
+        })
+    }
+    @IBAction func setColourGreen() {
+        session?.sendMessage(["colourChangeRequest": "00ff00"], replyHandler: { response in
+//            print("received reply from iPhone\n\(response)")
+        }, errorHandler: { error in
+//            print("error sending message\n\(error)")
+        })
+    }
+    @IBAction func setColourBlue() {
+        session?.sendMessage(["colourChangeRequest": "0000ff"], replyHandler: { response in
+//            print("received reply from iPhone\n\(response)")
+        }, errorHandler: { error in
+//            print("error sending message\n\(error)")
+        })
+    }
 }
