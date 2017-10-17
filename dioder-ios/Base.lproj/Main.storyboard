@@ -18,28 +18,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="rLt-Ws-37J">
-                                <rect key="frame" x="0.0" y="100" width="375" height="130"/>
+                                <rect key="frame" x="0.0" y="100" width="375" height="220"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrx-YT-tH3">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                         <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Red"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="zRu-qr-Ykg"/>
+                                        </constraints>
+                                        <state key="normal" title="Red">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="setColourRed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jF1-g5-99g"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rP5-3g-16w">
-                                        <rect key="frame" x="0.0" y="50" width="375" height="30"/>
+                                        <rect key="frame" x="0.0" y="80" width="375" height="60"/>
                                         <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Green"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="hB2-6y-7K3"/>
+                                        </constraints>
+                                        <state key="normal" title="Green">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="setColourGreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNk-LX-cV6"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2av-MK-KJo">
-                                        <rect key="frame" x="0.0" y="100" width="375" height="30"/>
+                                        <rect key="frame" x="0.0" y="160" width="375" height="60"/>
                                         <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Blue"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="jYq-by-x4D"/>
+                                        </constraints>
+                                        <state key="normal" title="Blue">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="setColourBlue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0In-Wy-Bkc"/>
                                         </connections>

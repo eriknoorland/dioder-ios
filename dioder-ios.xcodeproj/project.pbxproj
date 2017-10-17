@@ -651,11 +651,15 @@
 			baseConfigurationReference = A4744699F2CA1A7863910912 /* Pods-dioder-ios WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer: mail@eriknoorland.nl (J2XQ2M62AK)";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L79BRFYMZ4;
 				INFOPLIST_FILE = "dioder-ios WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.eriknoorland.dioder-ios.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -669,11 +673,15 @@
 			baseConfigurationReference = B3443ACCAE5E81CF9F0E0D13 /* Pods-dioder-ios WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer: mail@eriknoorland.nl (J2XQ2M62AK)";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L79BRFYMZ4;
 				INFOPLIST_FILE = "dioder-ios WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.eriknoorland.dioder-ios.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -689,6 +697,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L79BRFYMZ4;
 				IBSC_MODULE = dioder_ios_WatchKit_Extension;
 				INFOPLIST_FILE = "dioder-ios WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.eriknoorland.dioder-ios.watchkitapp";
@@ -708,6 +717,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L79BRFYMZ4;
 				IBSC_MODULE = dioder_ios_WatchKit_Extension;
 				INFOPLIST_FILE = "dioder-ios WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.eriknoorland.dioder-ios.watchkitapp";
@@ -726,6 +736,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L79BRFYMZ4;
 				INFOPLIST_FILE = "dioder-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.eriknoorland.dioder-ios";
@@ -741,6 +752,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L79BRFYMZ4;
 				INFOPLIST_FILE = "dioder-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.eriknoorland.dioder-ios";
