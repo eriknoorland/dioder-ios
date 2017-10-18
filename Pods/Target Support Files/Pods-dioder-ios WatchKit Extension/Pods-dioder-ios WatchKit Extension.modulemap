@@ -1,6 +1,0 @@
-framework module Pods_dioder_ios_WatchKit_Extension {
-  umbrella header "Pods-dioder-ios WatchKit Extension-umbrella.h"
-
-  export *
-  module * { export * }
-}
