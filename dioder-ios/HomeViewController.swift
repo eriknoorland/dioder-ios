@@ -2,7 +2,7 @@ import UIKit
 import SocketIO
 import WatchConnectivity
 
-class ViewController: UIViewController, WCSessionDelegate {
+class HomeViewController: UIViewController, WCSessionDelegate {
     
     let socket: SocketIOClient = SocketIOClient(socketURL: URL(string: "http://pdc.local:8080")!)
     var session: WCSession?

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		575FF80219878E4D0D3212E0 /* Pods_dioder_ios_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02CECC415F6D358A2CF04E9 /* Pods_dioder_ios_WatchKit_App.framework */; };
 		7A3F7CFB1F966DF900127B1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F7CFA1F966DF900127B1B /* AppDelegate.swift */; };
-		7A3F7CFD1F966DF900127B1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F7CFC1F966DF900127B1B /* ViewController.swift */; };
+		7A3F7CFD1F966DF900127B1B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F7CFC1F966DF900127B1B /* HomeViewController.swift */; };
 		7A3F7D001F966DF900127B1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F7CFE1F966DF900127B1B /* Main.storyboard */; };
 		7A3F7D021F966DF900127B1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F7D011F966DF900127B1B /* Assets.xcassets */; };
 		7A3F7D051F966DF900127B1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F7D031F966DF900127B1B /* LaunchScreen.storyboard */; };
@@ -20,6 +20,8 @@
 		7A3F7D1E1F966DF900127B1B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F7D1D1F966DF900127B1B /* InterfaceController.swift */; };
 		7A3F7D201F966DF900127B1B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F7D1F1F966DF900127B1B /* ExtensionDelegate.swift */; };
 		7A3F7D221F966DF900127B1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F7D211F966DF900127B1B /* Assets.xcassets */; };
+		7ADB6E1F1F9C81E100733DBA /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADB6E1E1F9C81E100733DBA /* FavoritesViewController.swift */; };
+		7ADB6E211F9C83F600733DBA /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADB6E201F9C83F600733DBA /* Favorite.swift */; };
 		8DFA93EC13D79D3325E7C7E2 /* Pods_dioder_ios_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B450DFC1FDD598F8687D3D /* Pods_dioder_ios_WatchKit_Extension.framework */; };
 		D36C9BC65EB635A7481736A5 /* Pods_dioder_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8224B7B18F3D9B30A1AD734 /* Pods_dioder_ios.framework */; };
 /* End PBXBuildFile section */
@@ -71,7 +73,7 @@
 		711187BDB7B84213CBB02595 /* Pods-dioder-ios WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dioder-ios WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dioder-ios WatchKit App/Pods-dioder-ios WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		7A3F7CF71F966DF900127B1B /* dioder-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dioder-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3F7CFA1F966DF900127B1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A3F7CFC1F966DF900127B1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A3F7CFC1F966DF900127B1B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7A3F7CFF1F966DF900127B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A3F7D011F966DF900127B1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3F7D041F966DF900127B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -85,6 +87,8 @@
 		7A3F7D1F1F966DF900127B1B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		7A3F7D211F966DF900127B1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3F7D231F966DF900127B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADB6E1E1F9C81E100733DBA /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		7ADB6E201F9C83F600733DBA /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		9E5D84B67102F470A3FE1F15 /* Pods-dioder-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dioder-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dioder-ios/Pods-dioder-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		A02CECC415F6D358A2CF04E9 /* Pods_dioder_ios_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dioder_ios_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4744699F2CA1A7863910912 /* Pods-dioder-ios WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dioder-ios WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dioder-ios WatchKit Extension/Pods-dioder-ios WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,7 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				7A3F7CFA1F966DF900127B1B /* AppDelegate.swift */,
-				7A3F7CFC1F966DF900127B1B /* ViewController.swift */,
+				7A3F7CFC1F966DF900127B1B /* HomeViewController.swift */,
+				7ADB6E1E1F9C81E100733DBA /* FavoritesViewController.swift */,
+				7ADB6E201F9C83F600733DBA /* Favorite.swift */,
 				7A3F7CFE1F966DF900127B1B /* Main.storyboard */,
 				7A3F7D011F966DF900127B1B /* Assets.xcassets */,
 				7A3F7D031F966DF900127B1B /* LaunchScreen.storyboard */,
@@ -482,7 +488,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A3F7CFD1F966DF900127B1B /* ViewController.swift in Sources */,
+				7A3F7CFD1F966DF900127B1B /* HomeViewController.swift in Sources */,
+				7ADB6E211F9C83F600733DBA /* Favorite.swift in Sources */,
+				7ADB6E1F1F9C81E100733DBA /* FavoritesViewController.swift in Sources */,
 				7A3F7CFB1F966DF900127B1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
